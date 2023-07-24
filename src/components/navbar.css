@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+ }
+
+body {
+    margin: 0;
+    font-family: 'SF Pro', sans-serif;
+    font-style: normal;
+    
+}
+
+.navbar {
+    background-color: white;
+    color : black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+}
+
+.navbar ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1 rem;
+}
+
+.navbar a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.venuefy {
+    font-size: 2.4375remrem;
+    font-weight: 700;
+    line-height: 2.925rem;
+    font-size: 2.4375rem
+    
+}
+.nav-center {
+    display: flex;
+    justify-content: flex-end;
+    gap: 3rem;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+.nav-left{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+
+.navbar li.active {
+    color: #EB5757;
+}
+
+.button {
+    font-size: 16px;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-family: 'SF Pro', sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    background-color: #EB5757;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    border-radius: 0.75rem;
+}
+
+button:hover {
+  color: white;
+  box-shadow: 0 0 20px #EB5757;
+  background-color: #EB5757;
+}
+
+.navbar li:hover {
+    color: #EB5757;
+}
