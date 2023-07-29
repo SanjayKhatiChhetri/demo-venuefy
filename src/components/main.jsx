@@ -3,11 +3,19 @@ import "./main.css";
 export const MainContent = () => (
   <main>
     <div className="Background-img">
-      <div className="main-content">
-        <p className="main-content-p1">Find your venues</p>
-        <p className="main-concent-p2">Lorem ipsum dolor sit amet</p>
+      <div className="container">
+          <form className="form-main">
+            <lable className="main-content-p1">
+              Find your venues
+              <br />
+              </lable>
+              <label className="main-concent-p2">
+              Lorem ipsum dolor sit amet
+              <br />
+            </label>
+          </form>
+        </div>
       </div>
-    </div>
   </main>
 );
 /*
@@ -17,3 +25,4 @@ style=
       backgroundImage: `url(${Background})`,
     }}
 */
+  

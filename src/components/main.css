@@ -10,12 +10,12 @@ body {
     background-repeat: no-repeat;
 
 }
-.main-content {
-    margin-top: 25%;
+.form-main {
     display: flex;
     flex-direction: column;
-    color: #273248;
-
+    justify-content: center;
+    color: #ffffff;
+    margin-top: 15%;
 }
 
 .main-content-p1 {
